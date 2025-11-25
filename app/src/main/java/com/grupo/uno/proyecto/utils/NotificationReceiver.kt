@@ -9,7 +9,6 @@ import android.content.Intent
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import com.grupo.uno.proyecto.MainActivity
-import com.grupo.uno.proyecto.R
 import kotlin.jvm.java
 
 class NotificationReceiver : BroadcastReceiver() {

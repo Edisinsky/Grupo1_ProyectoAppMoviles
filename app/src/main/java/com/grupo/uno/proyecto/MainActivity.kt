@@ -13,6 +13,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.grupo.uno.proyecto.data.AppDatabase
 import com.grupo.uno.proyecto.data.Task
 import kotlinx.coroutines.launch
+import androidx.core.content.edit
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         // Botón Logout
         findViewById<Button>(R.id.btnLogout).setOnClickListener {
-            getSharedPreferences("AppPrefs", Context.MODE_PRIVATE).edit().clear().apply()
+            getSharedPreferences("AppPrefs", MODE_PRIVATE).edit { clear() }
             startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
