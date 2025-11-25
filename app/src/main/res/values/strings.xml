@@ -1,3 +1,39 @@
 <resources>
-    <string name="app_name">Grupo1_ProyectoAppMoviles</string>
+    <string name="app_name">Organizador Estudiante</string>
+
+    <!-- Pantalla de Login -->
+    <string name="login_welcome">Bienvenido</string>
+    <string name="login_subtitle">Organiza tu tiempo de estudio</string>
+    <string name="hint_username">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="desc_logo">Logo de la aplicación</string>
+    <string name="error_credentials">Credenciales incorrectas</string>
+
+    <!-- Pantalla Principal -->
+    <string name="main_title">Mis Tareas</string>
+    <string name="main_subtitle">Mantén tu día organizado</string>
+    <string name="btn_logout">Salir</string>
+    <string name="desc_add_task">Agregar tarea</string>
+
+    <!-- Diálogos y Alertas -->
+    <string name="dialog_delete_title">Eliminar Tarea</string>
+    <string name="dialog_delete_msg">¿Estás seguro de eliminar \'%1$s\'?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+    <!-- Elemento de Lista (Placeholders) -->
+    <string name="task_title_placeholder">Título de la Tarea</string>
+    <string name="task_date_placeholder">Fecha y Hora</string>
+
+    <!-- Pantalla Agregar Tarea -->
+    <string name="add_task_title">Crear Nueva Tarea</string>
+    <string name="hint_task_title">Título de la tarea</string>
+    <string name="hint_task_desc">Descripción o notas</string>
+    <string name="add_task_date_label">Fecha y Recordatorio</string>
+    <string name="add_task_select_date_default">Seleccionar fecha</string>
+    <string name="btn_pick_date">Elegir</string>
+    <string name="btn_save_task">Guardar Tarea</string>
+    <string name="error_fill_fields">Completa título y fecha</string>
+    <string name="error_alarm_perm">Permiso de alarma no concedido</string>
 </resources>
